@@ -1,0 +1,66 @@
+[global]
+  monitor = 0
+  follow = mouse
+  shrink = no
+  padding = 15
+  horizontal_padding = 15
+ 
+  width=250
+  height=100
+  scale = 2
+  offset = 40x40
+  origin = bottom-right
+
+  progress_bar = true
+  progress_bar_height = 5
+  progress_bar_frame_width = 0
+  progress_bar_min_width = 150
+  progress_bar_max_width = 300
+
+  frame_width = 3
+  separator_height = 0
+  frame_color = "#26263a"
+  separator_color = "#404859"
+
+  sort = no
+  font = SF Pro Display 10
+  markup = full
+  format = "<b><span size='large' foreground='#C9CBFF'>%s</span></b>\n<span foreground='#C9CBFF'>%b</span>"
+  alignment = center
+  show_age_threshold = 60
+  word_wrap = yes
+  ignore_newline = no
+  stack_duplicates = true
+  hide_duplicate_count = no
+  show_indicators = yes
+
+  icon_path = /home/mia/.icons/Yaru++-Dark/status/16/:/home/mia/.icons/Yaru++-Dark/devices/16/:/home/mia/.icons/Yaru++-Dark/places/16/
+  icon_position = right
+  max_icon_size= 80
+  sticky_history = no
+  history_length = 6
+  title = Dunst
+  class = Dunst
+  corner_radius = 6
+
+  mouse_left_click = do_action
+  mouse_middle_click = close_all
+  mouse_right_click = close_current
+
+[urgency_low]
+  timeout = 5
+  background = "#1E1E2E"
+  foreground = "#D9E0EE"
+  highlight = "#F5C2E7"
+
+[urgency_normal]
+  timeout = 10
+  background = "#1E1E2E"
+  foreground = "#D9E0EE"
+  highlight = "#F5C2E7"
+
+[urgency_critical]
+  timeout = 20
+  background = "#1E1E2E"
+  foreground = "#D9E0EE"
+  highlight = "#F5C2E7"
